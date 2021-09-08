@@ -5,12 +5,12 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <>
+    <div style = {{backgroundColor:"#100c08"}}>
         <Header />
-        <div className="container d-flex p-2 justify-content-center align-items-center" style = {{backgroundColor:"#100c08", height:"100vh", alignItems:"center"}}>
+        <div className="container d-flex p-2 justify-content-center align-items-center" style = {{height:"100vh", alignItems:"center"}}>
           <Connect4 />
         </div>
-    </>
+    </div>
   );
 }
 

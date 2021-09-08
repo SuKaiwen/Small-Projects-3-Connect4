@@ -170,7 +170,7 @@ class Connect4 extends Component{
 
     render(){
         return (
-            <div style = {{backgroundColor:"#100c08"}}>
+            <div style = {{backgroundColor:"#100c08", textAlign:"center", width:"80%", margin:"auto", color:"white"}}>
                 <div className="connect4grid">
                     {this.state.connect4board.map((connect4square, index)=>{
                         return(<div onClick={()=>this.squareClicked(index)} className={this.state.connect4board[index] === "" ? 'connect4square' :

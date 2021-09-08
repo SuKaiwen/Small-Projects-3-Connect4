@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <h1>Connect4</h1>
+        <p style = {{fontSize:"40px", textAlign:"center"}}><span style={{color:"yellow"}}>Connect </span><span style={{color:"red"}}>4</span></p>
     );
 }
 
