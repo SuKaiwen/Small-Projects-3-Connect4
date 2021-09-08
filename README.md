@@ -4,7 +4,7 @@ Basic funcitonalities: two player game, to win you must connect 4 of your tokens
 
 Example Vertical Win:
 
-![image](https://user-images.githubusercontent.com/56058518/132451218-ea9e0a22-87b2-4da8-b6c4-0cd71d7a9a37.png)
+![image](https://user-images.githubusercontent.com/56058518/132451712-4947c5c0-e7b3-407e-8d7a-7eafe88a909f.png)
 
 Example Horizontal Win:
 
@@ -16,4 +16,4 @@ Example Diagonal Win:
 
 Responsive:
 
-![image](https://user-images.githubusercontent.com/56058518/132451428-12d65758-ca5d-4151-9196-15793ec9c58a.png)![image](https://user-images.githubusercontent.com/56058518/132451504-ffa204c1-8dd0-4e48-8f7f-bcf6910f26bf.png)
+![image](https://user-images.githubusercontent.com/56058518/132451428-12d65758-ca5d-4151-9196-15793ec9c58a.png)  ![image](https://user-images.githubusercontent.com/56058518/132451746-af6abfd6-49ba-4525-b13d-81b22f219ba2.png)
