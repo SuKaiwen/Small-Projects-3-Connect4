@@ -38,8 +38,8 @@
 }
 
 .connect4grid{
-    width: 43rem;
-    height: 37rem;
+    width: 49rem;
+    height: 42rem;
     margin: auto;
     border: 1px solid white;
     display: flex;
@@ -49,6 +49,7 @@
 .connect4square{
     width: 6rem;
     height: 6rem;
+    border-radius: 50%;
     border: 1px solid white;
     text-align: center;
     margin: auto;
@@ -58,6 +59,7 @@
     width: 6rem;
     height: 6rem;
     border: 1px solid white;
+    border-radius: 50%;
     background-color: yellow;
     text-align: center;
     margin: auto;
@@ -67,6 +69,7 @@
     width: 6rem;
     height: 6rem;
     border: 1px solid white;
+    border-radius: 50%;
     background-color: red;
     text-align: center;
     margin: auto;
@@ -74,8 +77,8 @@
 
 @media screen and (min-width: 600px) and (max-width: 900px){
     .connect4grid{
-        width: 29rem;
-        height: 25rem;
+        width: 33rem;
+        height: 28rem;
     }
 
     .connect4square{
