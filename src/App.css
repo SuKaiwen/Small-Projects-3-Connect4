@@ -72,13 +72,24 @@
     margin: auto;
 }
 
-.button2{
-    display: flex;
-    flex: 1;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    background-color: #C39797;
-    outline: 1px solid grey;
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .connect4grid{
+        width: 29rem;
+        height: 25rem;
+    }
+
+    .connect4square{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .connect4squareX{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .connect4squareO{
+        width: 4rem;
+        height: 4rem;
+    }
 }
