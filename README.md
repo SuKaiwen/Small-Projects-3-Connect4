@@ -14,6 +14,10 @@ Example Diagonal Win:
 
 ![image](https://user-images.githubusercontent.com/56058518/132451428-12d65758-ca5d-4151-9196-15793ec9c58a.png)
 
+Example Tie:
+
+![image](https://user-images.githubusercontent.com/56058518/132451933-90fc843d-58b7-465a-b9eb-8221ec88e797.png)
+
 Responsive:
 
 ![image](https://user-images.githubusercontent.com/56058518/132451428-12d65758-ca5d-4151-9196-15793ec9c58a.png)  ![image](https://user-images.githubusercontent.com/56058518/132451746-af6abfd6-49ba-4525-b13d-81b22f219ba2.png)
