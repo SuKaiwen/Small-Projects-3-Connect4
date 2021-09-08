@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Connect4 from './Components/Connect4';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Header />
+        <div className="container d-flex p-2 justify-content-center align-items-center" style = {{backgroundColor:"#100c08", height:"100vh", alignItems:"center"}}>
+          <Connect4 />
+        </div>
+    </>
   );
 }
 

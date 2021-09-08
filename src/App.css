@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.connect4grid{
+    width: 43rem;
+    height: 37rem;
+    margin: auto;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.connect4square{
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    text-align: center;
+    margin: auto;
+}
+
+.connect4squareX{
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+}
+
+.connect4squareO{
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+}
+
+.button2{
+    display: flex;
+    flex: 1;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #C39797;
+    outline: 1px solid grey;
+}
