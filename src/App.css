@@ -37,9 +37,22 @@
   }
 }
 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .connect4grid{
-    width: 49rem;
-    height: 42rem;
+    width: 40rem;
+    height: 35rem;
     margin: auto;
     border: 1px solid white;
     display: flex;
@@ -47,8 +60,8 @@
 }
 
 .connect4square{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
@@ -56,8 +69,8 @@
 }
 
 .connect4squareX{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border: 1px solid white;
     border-radius: 50%;
     background-color: yellow;
@@ -66,8 +79,8 @@
 }
 
 .connect4squareO{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border: 1px solid white;
     border-radius: 50%;
     background-color: red;
@@ -77,7 +90,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 900px){
     .connect4grid{
-        width: 33rem;
+        width: 32rem;
         height: 28rem;
     }
 
@@ -94,5 +107,27 @@
     .connect4squareO{
         width: 4rem;
         height: 4rem;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+    .connect4grid{
+        width: 24rem;
+        height: 21rem;
+    }
+
+    .connect4square{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .connect4squareX{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .connect4squareO{
+        width: 3rem;
+        height: 3rem;
     }
 }
